@@ -10,8 +10,8 @@ import Layout from '../components/layout'
 // ------------------------------------------ //
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  const siteTitle = 'Jessica Peck'
+  const siteDescription = 'Jessica Peck - Fullstack Software Engineer'
 
   return (
     <Layout>
@@ -37,26 +37,16 @@ const SectionOne = () => (
   <section id="one">
     <header className="major">
       <h2>
-        Ipsum lorem dolor aliquam ante commodo
+        Jessica Peck
         <br />
-        magna sed accumsan arcu neque.
+        Fullstack Software Engineer
       </h2>
     </header>
     <p>
-      Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-      nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-      lobortis tortor primis integer massa adipiscing id nisi accumsan
-      pellentesque commodo blandit enim arcu non at amet id arcu magna.
-      Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-      lorem neque cubilia.
+      A fullstack developer with a background in linguistics and education.
+      I like to help systems flow well from end-to-end, whether we're talking
+      about the codebase, or the teams who work on it.
     </p>
-    <ul className="actions">
-      <li>
-        <a href="#" className="button">
-          Learn More
-        </a>
-      </li>
-    </ul>
   </section>
 )
 
