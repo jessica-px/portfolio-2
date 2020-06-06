@@ -1207,6 +1207,9 @@
 
 				h1 {
 					font-size: 1.25em;
+					br {
+						display: none;
+					}
 				}
 			}
 
@@ -1269,6 +1272,9 @@
 
 				h1 {
 					font-size: 1.75em;
+					br {
+						display: inline;
+					}
 				}
 			}
 
@@ -1451,6 +1457,9 @@
 
 			#header {
 				padding: ($size-header-pad * 3) $size-header-pad;
+				br {
+					display: none;
+				}
 			}
 
 		/* Footer */
