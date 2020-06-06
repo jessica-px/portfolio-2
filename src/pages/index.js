@@ -65,6 +65,16 @@ const SectionTwo = () => (
 )
 
 
+// ------------------------------------------ //
+//              Styled Components             //
+// ------------------------------------------ //
+
+const WordWrap = styled.div`
+  word-spacing: 30px;
+  line-height: 2;
+  text-align: justify;
+  text-align-last: left;
+`
 
 
 export default HomeIndex
