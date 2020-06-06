@@ -26,6 +26,7 @@ const HomeIndex = () => {
         <SectionOne />
         <SectionTwo />
         <SectionThree />
+        <SectionFour />
       </div>
     </Layout>
   )
@@ -84,6 +85,14 @@ const SectionThree = () => {
     </section>
   )
 }
+
+const SectionFour = () => (
+  <section id="four">
+    <h2>Get In Touch</h2>
+    Want to say hello? Tell me about an available position? Send me a link for a cool article on good practices?<br/>
+    Reach out to me at <a href="mailto:jessypeck@gmail.com">jessypeck@gmail.com</a> or hit me up on <a href="https://www.linkedin.com/in/jessica-peck-26454b178/">LinkedIn</a>.
+  </section>
+)
 
 
 
