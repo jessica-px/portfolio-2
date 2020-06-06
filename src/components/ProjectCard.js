@@ -11,10 +11,10 @@ export const ProjectCard = ({title, description, liveUrl, codeUrl, imgUrl}) => (
         <CardBody>
             <CardHeader>{title}</CardHeader>
             <CardLinkContainer>
-                {liveUrl && <CardLink href={liveUrl}>
+                {liveUrl && <CardLink href={liveUrl} target="_blank">
                     Live Site <Icon className="icon fa-external-link"/>
                 </CardLink>}
-                {codeUrl && <CardLink href={codeUrl}>
+                {codeUrl && <CardLink href={codeUrl} target="_blank">
                     View Code <Icon className="icon fa-code"/>
                 </CardLink>}
             </CardLinkContainer>
