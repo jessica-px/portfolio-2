@@ -52,15 +52,12 @@ const SectionOne = () => (
 
 const SectionTwo = () => (
   <section id="two">
-    <h2>Recent Work</h2>
-    <Gallery />
-    <ul className="actions">
-      <li>
-        <a href="#" className="button">
-          Full Portfolio
-        </a>
-      </li>
-    </ul>
+    <h2>Technologies</h2>
+    <WordWrap>
+      JavaScript TypeScript React Redux StyledComponents SCSS
+      Python Django Flask NodeJS Express MongdoDB
+      Jest PyTest webpack babel git docz
+    </WordWrap>
   </section>
 )
 
