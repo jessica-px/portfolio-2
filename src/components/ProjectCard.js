@@ -36,10 +36,12 @@ const CardContainer = styled.div`
     flex-direction: row;
     background-color: #fff;
     box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05), 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
 `
 
 const CardImg = styled.img`
-    max-width: 50%;
+    object-fit: cover;
+    max-width: 40%;
     @media (max-width: 800px) {
         display: none;
     }
