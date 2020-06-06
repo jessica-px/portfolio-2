@@ -1207,10 +1207,6 @@
 
 				h1 {
 					font-size: 1.25em;
-
-					br {
-						display: none;
-					}
 				}
 			}
 
@@ -1245,14 +1241,6 @@
 
 		$size-header-pad: 2.8em;
 
-		/* Basic */
-
-			h1, h2, h3, h4, h5, h6 {
-				br {
-					display: none;
-				}
-			}
-
 		/* List */
 
 			ul {
@@ -1281,10 +1269,6 @@
 
 				h1 {
 					font-size: 1.75em;
-
-					br {
-						display: inline;
-					}
 				}
 			}
 
@@ -1467,12 +1451,6 @@
 
 			#header {
 				padding: ($size-header-pad * 3) $size-header-pad;
-
-				h1 {
-					br {
-						display: none;
-					}
-				}
 			}
 
 		/* Footer */
