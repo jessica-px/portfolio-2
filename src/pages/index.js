@@ -2,9 +2,10 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import styled from "styled-components"
 
-import Gallery from '../components/Gallery'
+import { ProjectCard } from '../components/ProjectCard'
 import Layout from '../components/layout'
 
+import jsonData from './projects.json';
 
 // ------------------------------------------ //
 //               Main Component               //
@@ -61,6 +62,29 @@ const SectionTwo = () => (
     </WordWrap>
   </section>
 )
+
+const SectionThree = () => {
+  const json = JSON.parse(JSON.stringify(jsonData));
+
+  return (
+    <section id="three">
+      <h2>Projects</h2>
+      {json.projects.map(project => {
+        const description = project.content.join(' ');
+        return (
+          <ProjectCard
+            title={project.name}
+            description={description}
+            codeUrl={project.codeUrl}
+            liveUrl={project.siteUrl}
+            imgUrl={project.image}
+          />
+        )
+      })}
+    </section>
+  )
+}
+
 
 
 // ------------------------------------------ //
