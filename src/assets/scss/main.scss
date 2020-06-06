@@ -41,7 +41,7 @@
 	));
 
 	$size-header-width: 35%;
-	$size-header-pad: 4em;
+	$size-header-pad: 2em;
 
 /* Basic */
 
@@ -72,7 +72,7 @@
 
 		&:hover {
 			border-bottom-color: transparent;
-			color: _palette(accent1, bg) !important;
+			color: _palette(fg-bold) !important;
 			text-decoration: none;
 		}
 	}
@@ -1197,7 +1197,7 @@
 	@include breakpoint(large) {
 
 		$size-header-width: 30%;
-		$size-header-pad: 3em;
+		$size-header-pad: 2.8em;
 
 		/* Header */
 
@@ -1243,7 +1243,7 @@
 
 	@include breakpoint(medium) {
 
-		$size-header-pad: 4em;
+		$size-header-pad: 2.8em;
 
 		/* Basic */
 
@@ -1329,7 +1329,7 @@
 
 	@include breakpoint(small) {
 
-		$size-header-pad: 1.5em;
+		$size-header-pad: 1em;
 
 		/* Basic */
 
@@ -1421,7 +1421,7 @@
 
 	@include breakpoint(xsmall) {
 
-		$size-header-pad: 1.5em;
+		$size-header-pad: 1em;
 
 		/* List */
 
