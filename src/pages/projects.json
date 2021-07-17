@@ -1,5 +1,15 @@
 { "projects" : [
     {
+      "name": "react-text-swap",
+      "image": "/text-swap.png",
+      "content": [
+        "A React component for text animations.",
+        "Made partially because I couldn't find anything like it, but also because I wanted to practice building example/documentation sites."
+      ],
+      "siteUrl": "https://jessica-px.github.io/react-text-swap/",
+      "codeUrl": "https://github.com/jessica-px/react-text-swap"
+    },
+    {
       "name": "Randomizer",
       "image": "/randomizer-4.png",
       "content": [
